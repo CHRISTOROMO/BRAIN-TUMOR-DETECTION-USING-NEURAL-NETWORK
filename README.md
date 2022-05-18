@@ -9,7 +9,7 @@ The main objective of this project was to develop a convolutional neural network
 
 ## Streamlit Deployment
 
-The designed model attained a high predictio accuracy of 97%. It was later deployed on streamlit [streamlit](https://share.streamlit.io/deborahmasibo/moringa-core-module-2-project/main/bt2/braintumour2.py) as a web application.
+The designed model attained a high predictio accuracy of 97%. It was later deployed on streamlit as a [web application](https://share.streamlit.io/deborahmasibo/moringa-core-module-2-project/main/bt2/braintumour2.py).
 
 ![alt text](https://github.com/CHRISTOROMO/BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK/blob/main/images/app2.png?raw=true)
 <br />

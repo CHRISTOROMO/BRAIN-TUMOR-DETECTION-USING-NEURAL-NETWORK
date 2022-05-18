@@ -4,13 +4,16 @@
 The main objective of this project was to develop a convolutional neural network that could accurately detect the presence of a tumour from an MRI scan. Fruthermore, after detecion, the model was to classify the tumour as either a glioma, meningioma or pituitary tumour. 
 
 ![alt text](https://github.com/CHRISTOROMO/BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK/blob/main/images/tumours.png?raw=true)
+<br />
+<br />
 
 ## Streamlit Deployment
 
 The designed model attained a high predictio accuracy of 97%. It was later deployed on streamlit as a web application.
 
 ![alt text](https://github.com/CHRISTOROMO/BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK/blob/main/images/app2.png?raw=true)
-
+<br />
+<br />
 
 ## Technologies Used
 Programming language: Python  

@@ -7,5 +7,5 @@ The main objective of this project was to develop a convolutional neural network
 
 The designed model attained a high predictio accuracy of 97%. It was later deployed on streamlit as a web application.
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/CHRISTOROMO/BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK/blob/main/images/app.png))
+![alt text]([https://github.com/[CHRISTOROMO]/[BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK]/blob/[main]/images/app.png?raw=true])
 

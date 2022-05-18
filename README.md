@@ -1,2 +1,11 @@
-# BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK
-Our objective is to detect the presence or absence of brain tumors and to accurately (>90%) classify the type of detected tumor as either a meningioma, glioma or pituitary tumor.
+# BRAIN TUMOUR DETECTION AND CLASSIFICATION
+
+## Descritption
+The main objective of this project was to develop a convolutional neural network that could accurately detect the presence of a tumour from an MRI scan. Fruthermore, after detecion, the model was to classify the tumour as either a glioma, meningioma or pituitary tumour. 
+
+## Streamlit Deployment
+
+The designed model attained a high predictio accuracy of 97%. It was later deployed on streamlit as a web application.
+
+![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/CHRISTOROMO/BRAIN-TUMOR-DETECTION-USING-NEURAL-NETWORK/blob/main/images/app.png))
+

@@ -17,8 +17,8 @@ The designed model attained a high prediction accuracy of 97%. It was later depl
 
 ```diff
 - DISCLAIMER!
-The application should only be used for educational purporses, and not for self-diagnosis or any other personal use. 
-For real life cases, consult your local medical authority for advice.
+The application should only be used for educational purporses, and not for self-diagnosis 
+or any other personal use. For real life cases, consult your local medical authority for advice.
 ```
 
 ## Technologies Used

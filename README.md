@@ -18,9 +18,9 @@ The designed model attained a high predictio accuracy of 97%. It was later deplo
 ## Technologies Used
 Programming language: Python  
 
-Pyhton libraries: Numpy, Pandas, SciPy, Scikit-Learn, TensorFlow, Matplotlib and Seaborn. 
+Python libraries: Numpy, Pandas, SciPy, Scikit-Learn, TensorFlow, Matplotlib and Seaborn. 
 
-Software: Google Colaboratory, Streamlit
+Software: Google Colaboratory, Streamlit, Canva, Jira Kanban
 
 
-#### By Deborah Masibo, Peter Otieno, Faith Cherotich, Vivian Bwana and Christopher Toromo
+#### By Deborah Masibo, Peter Otieno, Faith Cherotich, Esther Ogutu, Vivian Bwana and Christopher Toromo

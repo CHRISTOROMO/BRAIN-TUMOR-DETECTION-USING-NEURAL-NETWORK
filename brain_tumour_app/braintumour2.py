@@ -32,7 +32,7 @@ st.markdown(
             """
             <style>
             .main {
-                background-color: #f7ffff;
+                # background-color: #f7ffff;
                 # background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBwgHBwgHBwcHBw0HBwcHCA8ICQcNFREWFhURExMYHSggGBolGxUTITEhMSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDg0NDysZFRkrKy03KzIrKysrLS0tNysrKzctKzcrKysrKy0rLS0rKysrLSsrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAACAQADBgUHBP/EACQQAQEBAAIABAcBAAAAAAAAAAABEQISIVKSwQQ0QVFxgrID/8QAGgEBAQEBAQEBAAAAAAAAAAAAAQACBAUDBv/EABsRAQEBAAIDAAAAAAAAAAAAAAARATJxAwRR/9oADAMBAAIRAxEAPwD7asz135xmZklWIoSxYixEoUGHEVh8QhwE4UGHxBOFBhwNHDgQ4CcOBDgadIUCHA06Q4EOMtYcOBCgLpCgQ4GsKFAhRkkqRgSZG0JWTW1J+eMrO55zMypMzKkxRIUSWFBhREoUGHASh8QhwNHDgQ+IJw4EOAnDgQ4GjhwIUDTpDjnDgLpDjnDjLRw45wpQXSLAlWUE1HW0E9YdbUiYdbQngcXFZ2uBMbCZJMbFVJljKE0KJIURWHBhQEocGFAShwYcTRQoMKAukKBDgJw45w4CcOVzhSgukOVzlKUNOkpSucpShOkq65yrKDXTV1z1dBp62hq6oqetoa2qKvFY2HjY6XJBxsLGxKDi4uLiUHFkLGxKNIsWRZEo0hyJIUgKwokKREoUGFAShQYUBOFBhREocoRYC6QpXOUpQnSUpXOUpUTlKVzlWUGumrrnq6FXTV1z1tSrpq6562o101tc9bQq8ti4WNj7vhBxsPGxKBi4WNiUHFwsXEoOLIWLIlEkKRpCkBaRY0WJLCiRYCsODCiRRYMJEosGLKEcWUJSlSPV0NXUj1dc9XQa6auuetqVdNXXLV1QV01tc9bRFXTW1z1tUVfExsdMbG6oGNh42KqBjYeLiqgYuFi4qoGLhYuJQZFwsXEoki42Kk0KIqSrEixJYqKkqioBLoaupFq6GtqTpraGtqFPW0NbUq6a2uetqVdNbXPW7KCumtrn2bslX8eNh42B9oGNh4uKqBjYeNiUDFwsXEoGLhY2IQcXCxsKg4uKyERVxkmZlQZkVBm1GKJhbUC1tHW1ClraGtqFPU0NbUKetrnraVXTsnYNTshXTs3Zz7N2Sp42HjY+Tsg42HjYlAxsPGw1QMXCxcVEDGwsbEoONhY2IQcYkIRlRBmZiEZqyCMyFldTW1EF1NTU0slqaOpqFLU0dTSKepoa2oU9bXPW7IU9bQ1tKr6GNh42Od6MDGw8bEoONhY2JQcbDxMSg42FjYRAxsJMQHGJKWRQkpCIqVMpUWpSyjMlIRtajSzramtalqZa1NRLSyto6lqWlldTU1NQpamjqaRT1tDU1KvuY2EzlesmMuKkLEyQ4uLjIDiHiIDYhIQNiFULINVSkaKUqNLKVKtGlnUqVUpY1KK1KWdSjVo0s61FqlLOpalrDSzralrWimV1tFtIXW0dbUno2VnG9lFZkmZlSRlRJGqoWUSqhGihDSylGlUpZ0RpVKWRo0qNLOoJDSxqUatSlnRo0qNLGjUq0aWdSitGlnUqKNLLI3jbklt+08S6c/Jz9NSFl6c/Jz9Nbpz8nP01Cb8ekZmcb22ZmQWMzJMjMkyVmIRGYsoNVkyNSszTOjUqMWUo1WLGjRrMWdGpWYs6NFmLGjRrMWdGjWYs6g1mLLv8B8z/AJ/t/NfXvsrPh5eWO31uG9jPeFx+v5Vny104/9k=');
                 }
                 </style>
@@ -116,6 +116,8 @@ def PageSpecifications():
             result = f"{pred} Detected"
         elif result == 2:
             result = 'No tumour was detected.'
+            message = '''
+            '''
         elif result == 3:
             message = '''
             Abnormal cell growth in the pituitary gland. ''' + recommendation
@@ -134,6 +136,10 @@ def PageSpecifications():
 
 PageSpecifications()
 
+# Discalimer
+st.markdown("<h5 style='text-align: center; color: red;'> Disclaimer! </h1>", unsafe_allow_html=True)
+st.write('''The application should only be used for educational purporses, and not for self-diagnosis or any other personal use. 
+For real life cases, consult your local medical authority for advice.''')
 #------------------------------------------------------------------------------------------------------------------------------------------
 
     

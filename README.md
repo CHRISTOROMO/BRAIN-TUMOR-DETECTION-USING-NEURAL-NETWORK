@@ -26,7 +26,7 @@ Programming language: Python
 
 Python libraries: Numpy, Pandas, SciPy, Scikit-Learn, TensorFlow, Matplotlib and Seaborn. 
 
-Software: Google Colaboratory, Streamlit, Canva, Jira Kanban
+Software: Google Colaboratory, [Streamlit](https://share.streamlit.io/deborahmasibo/moringa-core-module-2-project/main/bt2/braintumour2.py), [Canva](https://www.canva.com/design/DAFBCQtn71o/cSxsNfhVb0CDA-ZcTLSkVw/edit?utm_content=DAFBCQtn71o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#2) and [Jira Kanban](https://christopherktoromo.atlassian.net/jira/software/projects/BTD/boards/4).
 
 
 #### By Deborah Masibo, Peter Otieno, Faith Cherotich, Esther Ogutu, Vivian Bwana and Christopher Toromo
